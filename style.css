@@ -1,23 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
 @font-face {
     font-family: Butler_Bold;
     src: url(./fonts/Butler_Bold.otf);
 }
 
+body{
+    background-color: #F5F5F5;
+}
+
+.contacto a{
+    color: black;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 32px;
+
+}
+
+.contacto a:hover{
+    text-decoration: underline;
+}
+
 .greeting h2{
     font-size: 40px;
     font-family: Inter;
+    font-weight: bold;
 }
 
 .greeting .name{
     font-size: 96px;
     font-family: Butler_Bold;
     font-weight: bold;
-    margin: 0px 0px -6ˆpx 0px;
+    margin: 0px 0px -60px 0px;
 }
 
 .greeting .name p{
-    margin: 0px 0px -20px 100px;
+    margin: 0px 0px -5px 100px;
 }
 
 .greeting h2{
@@ -32,5 +51,6 @@
     font-family: Inter;
     font-size: 24px;
     color: black;
+    font-weight: bold;
     text-decoration: none;
 }
