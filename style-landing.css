@@ -1,39 +1,29 @@
-#start-page{
+#landing{
     overflow: hidden;
     margin-top: 50px;
 }
 
-.greeting{
+.left-pannel{
     float: left;
     width: 50%;
 }
 
-.greeting h2{
+.left-pannel .medium{
     font-size: 40px;
     font-family: Inter;
     font-weight: bold;
+    margin: 15% 0% 5% 10%;
+
 }
 
-.greeting .name{
+.left-pannel .large{
     font-size: 96px;
     font-family: Butler_Bold;
     font-weight: bold;
-    margin: 0px 0px -60px 0px;
+    margin: 5% 0% -10% 10%;
 }
 
-.greeting .name p{
-    margin: 0px 0px -5px 100px;
-}
-
-.greeting h2{
-    margin: 100px 0px 30px 100px;
-}
-
-.greeting h2 p{
-    margin: -30px 0px 30px 0px;
-}
-
-.presentation{
+.right-pannel{
     position: absolute;
     left: 60%;
     width: 50%;
@@ -42,16 +32,15 @@
 
 .profile-photo img{
     object-fit: cover;
-    width: 386px;
-    height: 452px;
+    width: 73%;
+    height: 457px;
     border-radius: 115px;
-
     filter: drop-shadow(8px 12px 44px rgba(0, 0, 0, 0.25));
 }
 
-.contact-info a{
+.social-media{
     position: relative;
-    left: 117px;
+    left: 22%;
     top: 10px;
 }
 
@@ -73,21 +62,4 @@
 #instagram{
     position: relative;
     right: -4%;
-}
-
-@media screen and (max-width: 900px) {
-    .greeting{
-        width: 100%;
-        float: none;
-    }
-
-    .greeting p{
-        width: 80%;
-    }
-
-    .presentation{
-        position: relative;
-        left: 25%;
-        padding-bottom: 15%;
-    }
 }
