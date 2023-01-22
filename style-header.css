@@ -1,0 +1,15 @@
+.contacto{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.contacto a{
+    color: black;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 32px;
+}
+
+.contacto a:hover{
+    text-decoration: underline;
+}
