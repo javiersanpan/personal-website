@@ -34,17 +34,60 @@
 }
 
 .presentation{
-    padding-left: 800px;
-    padding-top: 80px;
+    position: absolute;
+    left: 60%;
+    width: 50%;
+    margin-top: 10%;
 }
 
 .profile-photo img{
-    width: 452px;
+    object-fit: cover;
+    width: 386px;
+    height: 452px;
+    border-radius: 115px;
+
+    filter: drop-shadow(8px 12px 44px rgba(0, 0, 0, 0.25));
 }
+
 .contact-info a{
-    font-family: Inter;
-    font-size: 24px;
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
+    position: relative;
+    left: 117px;
+    top: 10px;
+}
+
+#github{
+    position: relative;
+    right: 5%;
+}
+
+#linkedin{
+    position: relative;
+    right: 2%;
+}
+
+#twitter{
+    position: relative;
+    right: -1%;
+}
+
+#instagram{
+    position: relative;
+    right: -4%;
+}
+
+@media screen and (max-width: 900px) {
+    .greeting{
+        width: 100%;
+        float: none;
+    }
+
+    .greeting p{
+        width: 80%;
+    }
+
+    .presentation{
+        position: relative;
+        left: 25%;
+        padding-bottom: 15%;
+    }
 }
