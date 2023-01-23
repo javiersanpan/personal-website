@@ -1,15 +1,17 @@
 #landing{
-    overflow: hidden;
-    margin-top: 50px;
+    margin-top: 5vh;
+    display: flex;
 }
 
 .left-pannel{
-    float: left;
-    width: 50%;
+    width: 60%;
+    margin: auto;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .left-pannel .medium{
-    font-size: 40px;
+    font-size: 3vw;
     font-family: Inter;
     font-weight: bold;
     margin: 15% 0% 5% 10%;
@@ -17,49 +19,66 @@
 }
 
 .left-pannel .large{
-    font-size: 96px;
+    font-size: 7vw;
     font-family: Butler_Bold;
     font-weight: bold;
     margin: 5% 0% -10% 10%;
 }
 
 .right-pannel{
-    position: absolute;
-    left: 60%;
-    width: 50%;
-    margin-top: 10%;
+    width: 35%;
+    margin: auto;
 }
 
 .profile-photo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     object-fit: cover;
-    width: 73%;
-    height: 457px;
-    border-radius: 115px;
+    width: 25vw;
+    height: 30vw;
+    border-radius: 7vw;
     filter: drop-shadow(8px 12px 44px rgba(0, 0, 0, 0.25));
 }
 
 .social-media{
-    position: relative;
-    left: 22%;
-    top: 10px;
+    margin-top: 3vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-#github{
-    position: relative;
-    right: 5%;
+
+.icon-span{
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 5%;
 }
 
-#linkedin{
-    position: relative;
-    right: 2%;
+.icon{
+    width: 3vw;  
 }
 
-#twitter{
-    position: relative;
-    right: -1%;
+
+.email{
+    margin-top: 3vh;
+    text-align: center;
+}
+.email a{
+    color: black;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 2vw;
+    text-decoration: none;
 }
 
-#instagram{
-    position: relative;
-    right: -4%;
+@media (max-width: 800px){
+    .landing{
+        flex-wrap: wrap;
+    }
+    .left-pannel {
+        width: 100%;
+    }
+    .right-pannel {
+        width: 100%;
+    }
 }

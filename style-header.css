@@ -1,17 +1,12 @@
-.contacto{
-    position: absolute;
-    top: 50px;
-    left: 65%;
+#header{
+    height: 10vh;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 2%;
 }
 
 .contacto a{
     color: black;
-    text-decoration: none;
     font-family: Inter;
-    font-size: 28px;
-
-}
-
-.contacto a:hover{
-    text-decoration: underline;
+    font-size: 2vw;
 }
